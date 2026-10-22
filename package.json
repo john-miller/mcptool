@@ -1,0 +1,59 @@
+{
+  "name": "mcptool",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Postman-style workbench for exploring and calling MCP servers",
+  "type": "module",
+  "repository": "github:john-miller/mcptool",
+  "homepage": "https://john-miller.github.io/mcptool/",
+  "main": "out/electron/main.js",
+  "bin": {
+    "mcptool-tap": "bin/tap.mjs"
+  },
+  "scripts": {
+    "dev": "concurrently -k -n server,web -c blue,magenta \"npm:dev:server\" \"npm:dev:web\"",
+    "dev:server": "node --watch --import tsx server/index.ts",
+    "dev:web": "vite",
+    "build": "vite build",
+    "build:lite": "vite build --mode lite --outDir ../dist-lite --base ./",
+    "build:server": "tsc -p tsconfig.server.json",
+    "preview:lite": "vite preview --outDir ../dist-lite --port 4173",
+    "electron:dev": "npm run build && npm run build:server && electron .",
+    "electron:build": "npm run build && npm run build:server && electron-builder --publish never",
+    "start": "tsx server/index.ts",
+    "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.server.json"
+  },
+  "build": {
+    "appId": "dev.mcptool.app",
+    "productName": "mcptool",
+    "asar": false,
+    "directories": { "output": "release" },
+    "files": ["out/**/*", "dist/**/*", "bin/**/*", "package.json"],
+    "win": { "target": "nsis" },
+    "mac": { "target": "dmg" },
+    "linux": { "target": "AppImage" }
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "cors": "^2.8.6",
+    "cross-spawn": "^7.0.6",
+    "express": "^5.3.0",
+    "tsx": "^4.23.15",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "concurrently": "^10.0.6",
+    "electron": "^45.0.0",
+    "electron-builder": "^26.15.3",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4"
+  }
+}

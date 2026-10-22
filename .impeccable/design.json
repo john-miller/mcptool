@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "title": "Design System: mcptool",
+  "extensions": {
+    "colorMeta": {
+      "amber": { "role": "primary", "displayName": "Amber", "canonical": "#f2b33d", "lightSibling": "amber-light", "tonalRamp": ["oklch(22% 0.06 80)", "oklch(34% 0.09 80)", "oklch(46% 0.12 80)", "oklch(58% 0.14 80)", "oklch(70% 0.15 80)", "oklch(80% 0.15 80)", "oklch(89% 0.10 80)", "oklch(95% 0.05 80)"] },
+      "amber-text": { "role": "primary", "displayName": "Amber Text", "canonical": "#f2b33d", "lightSibling": "amber-text-light", "tonalRamp": ["oklch(22% 0.06 80)", "oklch(34% 0.09 80)", "oklch(46% 0.12 80)", "oklch(58% 0.14 80)", "oklch(70% 0.15 80)", "oklch(80% 0.15 80)", "oklch(89% 0.10 80)", "oklch(95% 0.05 80)"] },
+      "amber-ink": { "role": "primary", "displayName": "Amber Ink", "canonical": "#1a1200", "tonalRamp": ["oklch(15% 0.03 80)", "oklch(25% 0.04 80)", "oklch(35% 0.05 80)", "oklch(45% 0.06 80)", "oklch(55% 0.07 80)", "oklch(65% 0.07 80)", "oklch(80% 0.06 80)", "oklch(95% 0.03 80)"] },
+      "amber-soft": { "role": "primary", "displayName": "Amber Soft (held tint)", "canonical": "rgb(242 179 61 / 0.14)", "lightSibling": "amber-soft-light" },
+      "amber-select": { "role": "primary", "displayName": "Amber Select", "canonical": "rgb(242 179 61 / 0.22)", "lightSibling": "amber-select-light" },
+      "out-blue": { "role": "secondary", "displayName": "Out Blue (client to server)", "canonical": "#74abff", "lightSibling": "out-blue-light", "tonalRamp": ["oklch(20% 0.06 258)", "oklch(32% 0.10 258)", "oklch(44% 0.13 258)", "oklch(56% 0.14 258)", "oklch(66% 0.14 258)", "oklch(74% 0.13 258)", "oklch(85% 0.08 258)", "oklch(95% 0.03 258)"] },
+      "out-soft": { "role": "secondary", "displayName": "Out Soft (row tint)", "canonical": "rgb(116 171 255 / 0.09)", "lightSibling": "out-soft-light" },
+      "in-green": { "role": "secondary", "displayName": "In Green (server to client)", "canonical": "#5fcf9e", "lightSibling": "in-green-light", "tonalRamp": ["oklch(20% 0.05 165)", "oklch(32% 0.08 165)", "oklch(44% 0.11 165)", "oklch(56% 0.13 165)", "oklch(68% 0.13 165)", "oklch(78% 0.13 165)", "oklch(88% 0.08 165)", "oklch(95% 0.03 165)"] },
+      "in-soft": { "role": "secondary", "displayName": "In Soft (row tint)", "canonical": "rgb(95 207 158 / 0.1)", "lightSibling": "in-soft-light" },
+      "error-red": { "role": "tertiary", "displayName": "Error Red", "canonical": "#ff7272", "lightSibling": "error-red-light", "tonalRamp": ["oklch(20% 0.07 22)", "oklch(32% 0.11 22)", "oklch(44% 0.15 22)", "oklch(56% 0.18 22)", "oklch(64% 0.18 22)", "oklch(72% 0.17 22)", "oklch(84% 0.09 22)", "oklch(95% 0.03 22)"] },
+      "error-soft": { "role": "tertiary", "displayName": "Error Soft", "canonical": "rgb(255 114 114 / 0.13)", "lightSibling": "error-soft-light" },
+      "graphite-0": { "role": "neutral", "displayName": "Graphite 0 (canvas)", "canonical": "#0f1216", "lightSibling": "graphite-0-light", "tonalRamp": ["oklch(15% 0.012 255)", "oklch(20% 0.014 255)", "oklch(26% 0.016 255)", "oklch(36% 0.016 255)", "oklch(50% 0.016 255)", "oklch(66% 0.014 255)", "oklch(82% 0.010 255)", "oklch(95% 0.005 255)"] },
+      "graphite-1": { "role": "neutral", "displayName": "Graphite 1 (chrome)", "canonical": "#141821", "lightSibling": "graphite-1-light", "tonalRamp": ["oklch(15% 0.012 255)", "oklch(20% 0.014 255)", "oklch(26% 0.016 255)", "oklch(36% 0.016 255)", "oklch(50% 0.016 255)", "oklch(66% 0.014 255)", "oklch(82% 0.010 255)", "oklch(95% 0.005 255)"] },
+      "graphite-2": { "role": "neutral", "displayName": "Graphite 2 (hover)", "canonical": "#1a1f2a", "lightSibling": "graphite-2-light", "tonalRamp": ["oklch(15% 0.012 255)", "oklch(20% 0.014 255)", "oklch(26% 0.016 255)", "oklch(36% 0.016 255)", "oklch(50% 0.016 255)", "oklch(66% 0.014 255)", "oklch(82% 0.010 255)", "oklch(95% 0.005 255)"] },
+      "graphite-3": { "role": "neutral", "displayName": "Graphite 3 (raised control)", "canonical": "#212735", "lightSibling": "graphite-3-light", "tonalRamp": ["oklch(15% 0.012 255)", "oklch(20% 0.014 255)", "oklch(26% 0.016 255)", "oklch(36% 0.016 255)", "oklch(50% 0.016 255)", "oklch(66% 0.014 255)", "oklch(82% 0.010 255)", "oklch(95% 0.005 255)"] },
+      "line": { "role": "neutral", "displayName": "Line (hairline divider)", "canonical": "rgb(255 255 255 / 0.08)", "lightSibling": "line-light" },
+      "line-strong": { "role": "neutral", "displayName": "Line Strong (control border)", "canonical": "rgb(255 255 255 / 0.15)", "lightSibling": "line-strong-light" },
+      "ink": { "role": "neutral", "displayName": "Ink", "canonical": "#e6e9ef", "lightSibling": "ink-light", "tonalRamp": ["oklch(15% 0.01 255)", "oklch(26% 0.012 255)", "oklch(38% 0.014 255)", "oklch(50% 0.016 255)", "oklch(62% 0.016 255)", "oklch(74% 0.014 255)", "oklch(86% 0.010 255)", "oklch(95% 0.005 255)"] },
+      "ink-2": { "role": "neutral", "displayName": "Ink 2", "canonical": "#a9b1bf", "lightSibling": "ink-2-light", "tonalRamp": ["oklch(15% 0.01 255)", "oklch(26% 0.012 255)", "oklch(38% 0.014 255)", "oklch(50% 0.016 255)", "oklch(62% 0.016 255)", "oklch(74% 0.014 255)", "oklch(86% 0.010 255)", "oklch(95% 0.005 255)"] },
+      "ink-3": { "role": "neutral", "displayName": "Ink 3 (quiet; AA floor)", "canonical": "#8891a1", "lightSibling": "ink-3-light", "tonalRamp": ["oklch(15% 0.01 255)", "oklch(26% 0.012 255)", "oklch(38% 0.014 255)", "oklch(50% 0.016 255)", "oklch(62% 0.016 255)", "oklch(74% 0.014 255)", "oklch(86% 0.010 255)", "oklch(95% 0.005 255)"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "The start page's single h1 only." },
+      "headline": { "displayName": "Headline", "purpose": "Page heads, the palette input, an elicitation message." },
+      "title": { "displayName": "Title", "purpose": "Tool and resource titles (700), server name, card h3, selected method, brand word." },
+      "body": { "displayName": "Body", "purpose": "Descriptions, parameter tables, form labels; buttons, nav and tree rows run at 12.5px." },
+      "body-small": { "displayName": "Body Small", "purpose": "Sub-lines, types, notes, status bar, detail and pair heads, tabs." },
+      "protocol": { "displayName": "Protocol (mono)", "purpose": "Everything the protocol says: stream rows, filter, ids, latencies, JSON, readouts, key legends." },
+      "label": { "displayName": "Label (uppercase section label)", "purpose": "h4 section labels, tree group heads, stream column headers, palette groups, message roles. Names the block beneath; never a kicker above a title." },
+      "tag": { "displayName": "Tag (mono uppercase)", "purpose": "Kind tags (TOOL / REQ / RES), status pills, kbd legends, row actions." }
+    },
+    "shadows": [
+      { "name": "overlay", "value": "0 24px 60px -24px rgb(0 0 0 / 0.7), 0 2px 8px rgb(0 0 0 / 0.3)", "lightValue": "0 24px 60px -24px rgb(20 30 50 / 0.35), 0 2px 8px rgb(0 0 0 / 0.08)", "purpose": "Dialogs and the command palette (--shadow)." },
+      { "name": "drawer", "value": "16px 0 40px -16px rgb(0 0 0 / 0.6)", "purpose": "The rail when it is a drawer below 1100px." },
+      { "name": "pill", "value": "0 6px 16px -6px rgb(0 0 0 / 0.5)", "purpose": "The amber jump-to-latest capsule floating over the stream." },
+      { "name": "led-halo", "value": "0 0 0 2px var(--in-soft)", "purpose": "The connected LED's soft ring; a glow, not a lift." }
+    ],
+    "motion": [
+      { "name": "state", "value": "150ms", "purpose": "Background and border transitions on buttons, chips, resizers, the display filter." },
+      { "name": "progress", "value": "200ms ease-out", "purpose": "Progress fill transform." },
+      { "name": "landed", "value": "600ms ease-out", "purpose": "A frame entering the stream flashes from Amber Select to Amber Soft and holds the tint until acknowledged." },
+      { "name": "pulse", "value": "1.1s ease-in-out infinite", "purpose": "Connecting / waiting-for-sign-in LED." },
+      { "name": "spin", "value": "0.7s linear infinite", "purpose": "Spinner." },
+      { "name": "slide", "value": "1.2s ease-in-out infinite", "purpose": "Indeterminate progress bar." },
+      { "name": "reduced-motion", "value": "animation: none; transition: none", "purpose": "prefers-reduced-motion removes every animation and transition; the LED stays at full opacity; the held tint remains." }
+    ],
+    "breakpoints": [
+      { "name": "rail-drawer", "value": "1100px", "kind": "viewport", "purpose": "Below this the rail is a drawer over the work area." },
+      { "name": "bar-compact", "value": "820px", "kind": "viewport", "purpose": "Capture bar keeps the active chip, drops button labels to icons, hides status-bar key legends." },
+      { "name": "stream-no-time", "value": "680px", "kind": "container", "purpose": "Stream drops the time column." },
+      { "name": "stream-no-id", "value": "520px", "kind": "container", "purpose": "Stream drops id and latency (Δ) columns." },
+      { "name": "pair-stack", "value": "560px", "kind": "container", "purpose": "Detail pane stacks the request/response pair." },
+      { "name": "crafter-no-hint", "value": "400px", "kind": "container", "purpose": "Crafter hides the send shortcut hint." }
+    ],
+    "layout": {
+      "capbarHeight": "44px",
+      "statusbarHeight": "26px",
+      "streamRowHeight": "24px",
+      "streamHeaderHeight": "26px",
+      "railDefault": "248px", "railRange": "200px to 480px",
+      "crafterDefault": "420px", "crafterRange": "320px to min(760px, 60vw)",
+      "centerMinimum": "340px",
+      "streamFraction": 0.42, "streamFractionRange": "0.15 to 0.85",
+      "resizer": "6px",
+      "streamGrid": "36px 84px 14px 40px minmax(100px, 170px) 36px 54px minmax(0, 1fr) auto"
+    },
+    "icons": { "source": "web/src/components/Icon.tsx", "grid": 16, "strokeWidth": 1.75, "defaultSize": 14, "color": "currentColor", "names": ["play", "stop", "restart", "arrow-right", "arrow-left", "swap", "alert", "dot", "caret-right", "caret-down", "close", "search", "plus", "panel-left", "panel-right", "sun", "moon", "auto", "import", "key"] },
+    "fonts": { "sans": "Atkinson Hyperlegible Next (variable woff2, 200-800, normal + italic, /fonts/)", "mono": "Atkinson Hyperlegible Mono (variable woff2, 200-800, normal + italic, /fonts/)" }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one amber action on a surface: Send / Call tool / Connect.",
+      "html": "<button class=\"ds-btn ds-btn-primary\"><svg viewBox=\"0 0 16 16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 3.5v9l8-4.5z\" fill=\"currentColor\" stroke=\"none\"/></svg> Call tool</button>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; height: 30px; padding: 0 12px; border: 1px solid var(--line-strong, rgb(255 255 255 / 0.15)); border-radius: 4px; background: var(--bg3, #212735); color: var(--ink, #e6e9ef); font: 500 12.5px/1.45 'Atkinson Hyperlegible Next', system-ui, sans-serif; white-space: nowrap; cursor: pointer; transition: background-color 150ms, border-color 150ms; } .ds-btn-primary { background: var(--accent, #f2b33d); border-color: var(--accent, #f2b33d); color: var(--accent-ink, #1a1200); font-weight: 600; } .ds-btn-primary:hover { filter: brightness(1.06); } .ds-btn:focus-visible { outline: 2px solid var(--accent, #f2b33d); outline-offset: 1px; } .ds-btn:disabled { opacity: 0.45; cursor: default; }"
+    },
+    {
+      "name": "Button",
+      "kind": "button",
+      "refersTo": "button",
+      "description": "Default raised control: Graphite 3 with a Line Strong border; hover lifts the border to Ink 3.",
+      "html": "<button class=\"ds-btn\"><svg viewBox=\"0 0 16 16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M13 8a5 5 0 1 1-1.5-3.6\"/><path d=\"M13.2 2.8v3.2H10\"/></svg> Restart</button>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; height: 30px; padding: 0 12px; border: 1px solid var(--line-strong, rgb(255 255 255 / 0.15)); border-radius: 4px; background: var(--bg3, #212735); color: var(--ink, #e6e9ef); font: 500 12.5px/1.45 'Atkinson Hyperlegible Next', system-ui, sans-serif; white-space: nowrap; cursor: pointer; transition: background-color 150ms, border-color 150ms; } .ds-btn:hover:not(:disabled) { border-color: var(--ink-3, #8891a1); } .ds-btn:focus-visible { outline: 2px solid var(--accent, #f2b33d); outline-offset: 1px; } .ds-btn:disabled { opacity: 0.45; cursor: default; }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Capture-bar utilities (palette, JWT, theme, pane toggles): no fill, no border; hover Graphite 2.",
+      "html": "<button class=\"ds-btn ds-btn-ghost\"><svg viewBox=\"0 0 16 16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"7\" cy=\"7\" r=\"4\"/><path d=\"M10 10l3.5 3.5\"/></svg> <kbd class=\"ds-kbd\">Ctrl K</kbd></button>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; height: 30px; padding: 0 12px; border: 1px solid var(--line-strong, rgb(255 255 255 / 0.15)); border-radius: 4px; background: var(--bg3, #212735); color: var(--ink, #e6e9ef); font: 500 12.5px/1.45 'Atkinson Hyperlegible Next', system-ui, sans-serif; white-space: nowrap; cursor: pointer; transition: background-color 150ms, border-color 150ms; } .ds-btn-ghost { background: transparent; border-color: transparent; color: var(--ink-2, #a9b1bf); } .ds-btn-ghost:hover { background: var(--bg2, #1a1f2a); color: var(--ink, #e6e9ef); } .ds-btn:focus-visible { outline: 2px solid var(--accent, #f2b33d); outline-offset: 1px; } .ds-kbd { display: inline-block; min-width: 18px; padding: 1px 5px; border: 1px solid var(--line-strong, rgb(255 255 255 / 0.15)); border-bottom-width: 2px; border-radius: 3px; background: var(--bg3, #212735); color: var(--ink-2, #a9b1bf); font: 500 11.5px/1.4 'Atkinson Hyperlegible Mono', ui-monospace, monospace; text-align: center; white-space: nowrap; }"
+    },
+    {
+      "name": "Danger Button",
+      "kind": "button",
+      "refersTo": "button-danger",
+      "description": "Destructive action: Error Soft fill with Error Red border and text.",
+      "html": "<button class=\"ds-btn ds-btn-danger\">Delete connection</button>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; height: 30px; padding: 0 12px; border: 1px solid var(--line-strong, rgb(255 255 255 / 0.15)); border-radius: 4px; background: var(--bg3, #212735); color: var(--ink, #e6e9ef); font: 500 12.5px/1.45 'Atkinson Hyperlegible Next', system-ui, sans-serif; white-space: nowrap; cursor: pointer; transition: background-color 150ms, border-color 150ms; } .ds-btn-danger { background: var(--err-soft, rgb(255 114 114 / 0.13)); border-color: var(--err, #ff7272); color: var(--err, #ff7272); } .ds-btn-danger:hover { border-color: var(--err, #ff7272); filter: brightness(1.06); } .ds-btn:focus-visible { outline: 2px solid var(--accent, #f2b33d); outline-offset: 1px; }"
+    },
+    {
+      "name": "Input",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Text field: Graphite 3 well, Line Strong border, amber focus outline pulled inside the border.",
+      "html": "<input class=\"ds-input\" placeholder=\"Filter offerings…\" />",
+      "css": ".ds-input { width: 100%; min-height: 30px; padding: 5px 9px; border: 1px solid var(--line-strong, rgb(255 255 255 / 0.15)); border-radius: 4px; background: var(--bg3, #212735); color: var(--ink, #e6e9ef); font: 13px/1.4 'Atkinson Hyperlegible Next', system-ui, sans-serif; } .ds-input::placeholder { color: var(--ink-3, #8891a1); } .ds-input:focus-visible { outline: 2px solid var(--accent, #f2b33d); outline-offset: -1px; } .ds-input.is-error { border-color: var(--err, #ff7272); }"
+    },
+    {
+      "name": "Display Filter",
+      "kind": "input",
+      "refersTo": "display-filter",
+      "description": "The capture bar's mono filter well; border turns amber on focus-within; match count on the right.",
+      "html": "<div class=\"ds-dfilter\"><svg viewBox=\"0 0 16 16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" class=\"ds-dfilter-icon\"><circle cx=\"7\" cy=\"7\" r=\"4\"/><path d=\"M10 10l3.5 3.5\"/></svg><input class=\"ds-dfilter-input\" placeholder=\"display filter · method:tools/call dir:in kind:req,res error text\" /><span class=\"ds-dfilter-count\">12/14</span></div>",
+      "css": ".ds-dfilter { display: flex; align-items: center; gap: 8px; max-width: 680px; height: 30px; padding: 0 8px 0 10px; background: var(--bg0, #0f1216); border: 1px solid var(--line-strong, rgb(255 255 255 / 0.15)); border-radius: 4px; transition: border-color 150ms; } .ds-dfilter:focus-within { border-color: var(--accent, #f2b33d); } .ds-dfilter-icon { color: var(--ink-3, #8891a1); flex: none; } .ds-dfilter-input { flex: 1; min-width: 0; background: none; border: none; outline: none; color: var(--ink, #e6e9ef); font: 12px 'Atkinson Hyperlegible Mono', ui-monospace, monospace; text-overflow: ellipsis; } .ds-dfilter-input::placeholder { color: var(--ink-3, #8891a1); } .ds-dfilter-count { color: var(--ink-3, #8891a1); font: 11.5px 'Atkinson Hyperlegible Mono', ui-monospace, monospace; }"
+    },
+    {
+      "name": "Server Chip",
+      "kind": "chip",
+      "refersTo": "server-chip",
+      "description": "One chip per server in the capture bar, LED first; the active one is Graphite 3 with a Line Strong border; an awaited reply is an amber badge.",
+      "html": "<div class=\"ds-chips\"><button class=\"ds-chip is-active\"><span class=\"ds-led ds-led-connected\"></span>mcptool demo server</button><button class=\"ds-chip\"><span class=\"ds-led\"></span>DabbledForSchools<span class=\"ds-chip-badge is-alert\">1</span></button></div>",
+      "css": ".ds-chips { display: flex; align-items: center; gap: 2px; } .ds-chip { display: flex; align-items: center; gap: 7px; height: 28px; padding: 0 10px; border: 1px solid transparent; border-radius: 4px; background: transparent; color: var(--ink-2, #a9b1bf); font: 13px/1.45 'Atkinson Hyperlegible Next', system-ui, sans-serif; white-space: nowrap; cursor: pointer; } .ds-chip:hover { background: var(--bg2, #1a1f2a); color: var(--ink, #e6e9ef); } .ds-chip.is-active { background: var(--bg3, #212735); border-color: var(--line-strong, rgb(255 255 255 / 0.15)); color: var(--ink, #e6e9ef); } .ds-chip:focus-visible { outline: 2px solid var(--accent, #f2b33d); outline-offset: 1px; } .ds-led { width: 8px; height: 8px; border-radius: 50%; background: var(--ink-3, #8891a1); flex: none; } .ds-led-connected { background: var(--in, #5fcf9e); box-shadow: 0 0 0 2px var(--in-soft, rgb(95 207 158 / 0.1)); } .ds-chip-badge { padding: 0 5px; border-radius: 8px; background: var(--bg3, #212735); color: var(--ink-2, #a9b1bf); font: 500 11.5px/16px 'Atkinson Hyperlegible Mono', ui-monospace, monospace; } .ds-chip-badge.is-alert { background: var(--accent, #f2b33d); color: var(--accent-ink, #1a1200); font-weight: 700; }"
+    },
+    {
+      "name": "Kind Tags",
+      "kind": "chip",
+      "refersTo": "kind-tag",
+      "description": "Mono uppercase tags: neutral TOOL, blue REQ (client to server), green RES (server to client), red error, amber ask.",
+      "html": "<span class=\"ds-tags\"><span class=\"ds-tag\">tool</span><span class=\"ds-kind-tag d-out\">req</span><span class=\"ds-kind-tag d-in\">res</span><span class=\"ds-kind-tag is-error\">res</span><span class=\"ds-kind-tag tag-ask\">ask</span><span class=\"ds-status ds-status-ok\">ok</span></span>",
+      "css": ".ds-tags { display: inline-flex; gap: 5px; flex-wrap: wrap; } .ds-tag, .ds-kind-tag, .ds-status { display: inline-block; padding: 1px 6px; border-radius: 3px; font: 600 11.5px/1.4 'Atkinson Hyperlegible Mono', ui-monospace, monospace; letter-spacing: 0.04em; text-transform: uppercase; } .ds-tag { background: var(--bg3, #212735); color: var(--ink-2, #a9b1bf); } .ds-kind-tag { border: 1px solid var(--line-strong, rgb(255 255 255 / 0.15)); color: var(--ink-2, #a9b1bf); background: transparent; } .ds-kind-tag.d-out { color: var(--out, #74abff); border-color: color-mix(in oklab, var(--out, #74abff) 45%, transparent); } .ds-kind-tag.d-in { color: var(--in, #5fcf9e); border-color: color-mix(in oklab, var(--in, #5fcf9e) 45%, transparent); } .ds-kind-tag.is-error { color: var(--err, #ff7272); border-color: color-mix(in oklab, var(--err, #ff7272) 45%, transparent); } .ds-kind-tag.tag-ask { color: var(--accent-text, #f2b33d); border-color: color-mix(in oklab, var(--accent, #f2b33d) 50%, transparent); } .ds-status-ok { background: var(--in-soft, rgb(95 207 158 / 0.1)); color: var(--in, #5fcf9e); }"
+    },
+    {
+      "name": "Stream Rows",
+      "kind": "custom",
+      "refersTo": "stream-row",
+      "description": "The main pane: 24px mono rows on a 9-column grid; direction tints, a held amber tint for an unseen frame, amber select outline, dashed pair outline.",
+      "html": "<div class=\"ds-stream\"><div class=\"ds-srow ds-shead\"><span class=\"c-seq\">#</span><span class=\"c-time\">time</span><span class=\"c-dir\"></span><span class=\"c-kind\">kind</span><span class=\"c-method\">method</span><span class=\"c-id\">id</span><span class=\"c-lat\">Δ</span><span class=\"c-info\">info</span><span></span></div><div class=\"ds-srow d-out is-pair\"><span class=\"c-seq\">13</span><span class=\"c-time\">09:22:26.687</span><span class=\"c-dir\"><svg viewBox=\"0 0 16 16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3 8h10\"/><path d=\"M9 4l4 4-4 4\"/></svg></span><span class=\"c-kind\">req</span><span class=\"c-method\">tools/call</span><span class=\"c-id\">#5</span><span class=\"c-lat\"></span><span class=\"c-info\">add {\"a\":2,\"b\":40}</span><span></span></div><div class=\"ds-srow d-in is-selected\"><span class=\"c-seq\">14</span><span class=\"c-time\">09:22:26.692</span><span class=\"c-dir\"><svg viewBox=\"0 0 16 16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M13 8H3\"/><path d=\"M7 4L3 8l4 4\"/></svg></span><span class=\"c-kind\">res</span><span class=\"c-method\">tools/call</span><span class=\"c-id\">#5</span><span class=\"c-lat\">5 ms</span><span class=\"c-info\">add → 1 block · 42</span><span></span></div><div class=\"ds-srow d-in is-new\"><span class=\"c-seq\">15</span><span class=\"c-time\">09:22:27.104</span><span class=\"c-dir\"><svg viewBox=\"0 0 16 16\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M13 8H3\"/><path d=\"M7 4L3 8l4 4\"/></svg></span><span class=\"c-kind\">req</span><span class=\"c-method\">sampling/createMessage</span><span class=\"c-id\">#6</span><span class=\"c-lat\"></span><span class=\"c-info\"><span class=\"ds-awaiting\">awaiting your reply · </span>1 message</span><button class=\"ds-row-action\">Reply</button></div></div>",
+      "css": ".ds-stream { background: var(--bg0, #0f1216); font: 12px/1.45 'Atkinson Hyperlegible Mono', ui-monospace, monospace; font-variant-numeric: tabular-nums; } .ds-srow { display: grid; grid-template-columns: 36px 84px 14px 40px minmax(100px, 170px) 36px 54px minmax(0, 1fr) auto; gap: 0 9px; align-items: center; height: 24px; padding: 0 12px; border-bottom: 1px solid rgb(127 127 127 / 0.07); color: var(--ink-2, #a9b1bf); } .ds-shead { height: 26px; background: var(--bg1, #141821); border-bottom: 1px solid var(--line, rgb(255 255 255 / 0.08)); color: var(--ink-3, #8891a1); font-size: 11.5px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; } .ds-srow .c-seq, .ds-srow .c-lat { text-align: right; } .ds-srow .c-seq, .ds-srow .c-time, .ds-srow .c-kind, .ds-srow .c-id, .ds-srow .c-lat { color: var(--ink-3, #8891a1); } .ds-srow .c-dir { display: flex; justify-content: center; } .ds-srow .c-method { font-weight: 600; color: var(--ink, #e6e9ef); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; } .ds-srow .c-info { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; } .ds-srow:not(.ds-shead):hover { background: var(--bg2, #1a1f2a); } .ds-srow.d-out { background: var(--out-soft, rgb(116 171 255 / 0.09)); } .ds-srow.d-out .c-dir { color: var(--out, #74abff); } .ds-srow.d-in { background: var(--in-soft, rgb(95 207 158 / 0.1)); } .ds-srow.d-in .c-dir { color: var(--in, #5fcf9e); } .ds-srow.is-new { background-color: var(--accent-soft, rgb(242 179 61 / 0.14)); animation: ds-landed 600ms ease-out; } @keyframes ds-landed { from { background-color: var(--accent-select, rgb(242 179 61 / 0.22)); } } .ds-srow.is-selected, .ds-srow.is-selected:hover { background: var(--accent-select, rgb(242 179 61 / 0.22)); color: var(--ink, #e6e9ef); outline: 1px solid var(--accent, #f2b33d); outline-offset: -1px; } .ds-srow.is-pair { outline: 1px dashed var(--accent, #f2b33d); outline-offset: -1px; } .ds-awaiting { color: var(--accent-text, #f2b33d); font-weight: 600; } .ds-row-action { height: 18px; padding: 0 7px; border: 1px solid var(--accent, #f2b33d); border-radius: 3px; background: var(--accent, #f2b33d); color: var(--accent-ink, #1a1200); font: 600 11.5px 'Atkinson Hyperlegible Mono', ui-monospace, monospace; cursor: pointer; } @media (prefers-reduced-motion: reduce) { .ds-srow.is-new { animation: none; } }"
+    },
+    {
+      "name": "Rail Navigation",
+      "kind": "nav",
+      "refersTo": "nav-row",
+      "description": "The left rail: nav rows, a Label-style tree group head with count, and tree rows whose active state is Amber Soft with a 2px inset amber edge.",
+      "html": "<nav class=\"ds-rail\"><div class=\"ds-rail-nav\"><button class=\"ds-nav-row\">Overview</button><button class=\"ds-nav-row is-active\">Model view</button><button class=\"ds-nav-row\">Raw JSON-RPC</button></div><div class=\"ds-tree\"><button class=\"ds-tree-head\"><svg viewBox=\"0 0 16 16\" width=\"11\" height=\"11\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 6l4 4 4-4\"/></svg>Tools<span class=\"ds-tree-count\">7</span></button><button class=\"ds-tree-row is-active\"><span class=\"ds-tree-name\">add</span><span class=\"ds-mini\">ro</span></button><button class=\"ds-tree-row\"><span class=\"ds-tree-name\">search_notes</span></button><button class=\"ds-tree-row\"><span class=\"ds-tree-name\">slow_task</span></button></div></nav>",
+      "css": ".ds-rail { width: 248px; background: var(--bg1, #141821); border-right: 1px solid var(--line, rgb(255 255 255 / 0.08)); font: 13px/1.45 'Atkinson Hyperlegible Next', system-ui, sans-serif; } .ds-rail-nav { display: flex; flex-direction: column; gap: 1px; padding: 6px 8px; border-bottom: 1px solid var(--line, rgb(255 255 255 / 0.08)); } .ds-nav-row { padding: 5px 8px; border: none; border-radius: 4px; background: none; color: var(--ink-2, #a9b1bf); font: inherit; font-size: 12.5px; text-align: left; cursor: pointer; } .ds-nav-row:hover { background: var(--bg2, #1a1f2a); color: var(--ink, #e6e9ef); } .ds-nav-row.is-active { background: var(--accent-soft, rgb(242 179 61 / 0.14)); color: var(--ink, #e6e9ef); } .ds-tree { padding: 4px 8px 12px; } .ds-tree-head { display: flex; align-items: center; gap: 6px; width: 100%; padding: 10px 6px 4px; border: none; background: none; color: var(--ink-3, #8891a1); font: 600 11.5px/1 'Atkinson Hyperlegible Next', system-ui, sans-serif; letter-spacing: 0.06em; text-transform: uppercase; cursor: pointer; } .ds-tree-count { margin-left: auto; letter-spacing: 0; } .ds-tree-row { display: flex; align-items: center; gap: 6px; width: 100%; padding: 4px 8px 4px 20px; border: none; border-radius: 4px; background: none; color: var(--ink-2, #a9b1bf); font: 12.5px 'Atkinson Hyperlegible Mono', ui-monospace, monospace; text-align: left; cursor: pointer; } .ds-tree-row + .ds-tree-row { margin-top: 1px; } .ds-tree-row:hover { background: var(--bg2, #1a1f2a); color: var(--ink, #e6e9ef); } .ds-tree-row.is-active { background: var(--accent-soft, rgb(242 179 61 / 0.14)); color: var(--ink, #e6e9ef); box-shadow: inset 2px 0 0 var(--accent, #f2b33d); } .ds-tree-name { flex: 1; min-width: 0; } .ds-mini { padding: 0 4px; border: 1px solid var(--line, rgb(255 255 255 / 0.08)); border-radius: 3px; color: var(--ink-3, #8891a1); font: 500 11.5px/1.5 'Atkinson Hyperlegible Mono', ui-monospace, monospace; } .ds-nav-row:focus-visible, .ds-tree-row:focus-visible, .ds-tree-head:focus-visible { outline: 2px solid var(--accent, #f2b33d); outline-offset: 1px; }"
+    },
+    {
+      "name": "JSON Well",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Dissected JSON ranked by weight, not hue: keys and literals heavy Ink, strings Ink 2, punctuation Ink 3; a ghost Copy button in the corner.",
+      "html": "<div class=\"ds-json\"><button class=\"ds-copy\">Copy</button><div class=\"ds-j-line ds-j-toggle\"><span class=\"ds-j-caret\"><svg viewBox=\"0 0 16 16\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 6l4 4 4-4\"/></svg></span><span class=\"ds-j-punct\">{</span></div><div class=\"ds-j-children\"><div class=\"ds-j-line\"><span class=\"ds-j-key\">\"tool\"</span><span class=\"ds-j-punct\">: </span><span class=\"ds-j-str\">\"add\"</span><span class=\"ds-j-punct\">,</span></div><div class=\"ds-j-line\"><span class=\"ds-j-key\">\"sum\"</span><span class=\"ds-j-punct\">: </span><span class=\"ds-j-num\">42</span><span class=\"ds-j-punct\">,</span></div><div class=\"ds-j-line\"><span class=\"ds-j-key\">\"isError\"</span><span class=\"ds-j-punct\">: </span><span class=\"ds-j-bool\">false</span><span class=\"ds-j-punct\">,</span></div><div class=\"ds-j-line\"><span class=\"ds-j-key\">\"_meta\"</span><span class=\"ds-j-punct\">: </span><span class=\"ds-j-null\">null</span></div></div><div class=\"ds-j-line\"><span class=\"ds-j-punct\">}</span></div></div>",
+      "css": ".ds-json { position: relative; padding: 8px 12px; border: 1px solid var(--line, rgb(255 255 255 / 0.08)); border-radius: 4px; background: var(--bg1, #141821); font: 12px/1.6 'Atkinson Hyperlegible Mono', ui-monospace, monospace; color: var(--ink-2, #a9b1bf); } .ds-copy { position: absolute; top: 5px; right: 5px; height: 22px; padding: 0 7px; border: 1px solid transparent; border-radius: 4px; background: transparent; color: var(--ink-2, #a9b1bf); font: 500 11.5px 'Atkinson Hyperlegible Next', system-ui, sans-serif; cursor: pointer; } .ds-copy:hover { background: var(--bg2, #1a1f2a); color: var(--ink, #e6e9ef); } .ds-j-line { padding-left: 14px; white-space: pre-wrap; } .ds-j-toggle { padding-left: 0; cursor: pointer; } .ds-j-toggle:hover { background: var(--bg2, #1a1f2a); } .ds-j-caret { display: inline-flex; width: 14px; color: var(--ink-3, #8891a1); vertical-align: -1px; } .ds-j-children { margin-left: 5px; padding-left: 16px; border-left: 1px solid var(--line, rgb(255 255 255 / 0.08)); } .ds-j-key, .ds-j-num, .ds-j-bool { color: var(--ink, #e6e9ef); font-weight: 600; } .ds-j-str { color: var(--ink-2, #a9b1bf); } .ds-j-null, .ds-j-punct { color: var(--ink-3, #8891a1); }"
+    },
+    {
+      "name": "Readout Line",
+      "kind": "custom",
+      "refersTo": "stream-row",
+      "description": "Counts are one mono readout line, like an instrument's: the value heavy, the label quiet. Never a metric tile.",
+      "html": "<p class=\"ds-readouts\"><span class=\"ds-readout\"><span class=\"ds-readout-value\">≈1,240</span> context tokens per request</span><span class=\"ds-readout\"><span class=\"ds-readout-value\">7</span> tools</span><span class=\"ds-readout is-warn\"><span class=\"ds-readout-value\">2</span> issues</span></p>",
+      "css": ".ds-readouts { display: flex; flex-wrap: wrap; gap: 4px 24px; margin: 0; color: var(--ink-3, #8891a1); font: 12px 'Atkinson Hyperlegible Mono', ui-monospace, monospace; font-variant-numeric: tabular-nums; } .ds-readout { display: inline-flex; align-items: baseline; gap: 6px; } .ds-readout-value { color: var(--ink, #e6e9ef); font-weight: 700; } .ds-readout.is-warn .ds-readout-value { color: var(--err, #ff7272); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Protocol Analyzer",
+    "overview": "mcptool borrows Wireshark's grammar and nothing of its skin. The live JSON-RPC stream is the main pane; every other surface (the tree of offerings on the left, the dissected frame below, the crafter on the right) is a way of composing or taking apart a frame in that stream. The world is a cool graphite neutral scale, dark first with a light sibling that follows the OS preference, drawn with hairline rules, dense 24px rows, tabular figures and LED status dots. Nothing is decorative; a line exists because two things need separating, and a tint exists because a frame has a direction.\n\nColour is a budget, not a palette. One amber is spent on exactly four things: the selection, the primary action, the focus ring, and a change held until it is seen. Two direction hues (blue for client to server, green for server to client) and one error red are the only other chroma on screen, and they appear only where direction or failure is the fact being shown. JSON, JWT parts and readouts rank by weight and ink level, never by hue.\n\nType is Atkinson Hyperlegible Next for the interface and Atkinson Hyperlegible Mono for everything the protocol says (methods, ids, latencies, JSON, the display filter, key legends). Inside any one pane there are two sizes; hierarchy is weight and case. The rejected arrangement is the category's own: document tabs over a request/response split with the log folded away at the bottom.",
+    "keyCharacteristics": [
+      "Stream-first three-column workbench under a 44px capture bar and over a 26px mono status bar.",
+      "Flat tonal layering on four graphite steps; hairlines at 8% and 15% white (10% and 20% near-black in light).",
+      "Amber budget: selection, primary action, focus, held-until-seen. Blue out, green in, red error. Nothing else coloured.",
+      "Two sizes per pane (13 / 11.5; protocol mono 12); rank by weight (400 / 500 / 600 / 700) and uppercase.",
+      "One drawn inline-SVG icon set on a 16-unit grid at stroke 1.75, always currentColor.",
+      "Motion is 150 to 200ms and state-bound; a landed frame flashes once and holds its tint until acknowledged."
+    ],
+    "rules": [
+      { "name": "The Amber Budget Rule", "body": "Amber is spent on four things only: the selected frame, the primary action, the focus ring, and a change held until it is seen. If a surface needs a fifth, it is wrong.", "section": "colors" },
+      { "name": "The Direction-Only Rule", "body": "Blue and green mean client to server and server to client and appear only on direction marks, kind tags, row tints and REQ/RES tags. They never colour a button, a heading, a link or a JSON token.", "section": "colors" },
+      { "name": "The Rank-By-Weight Rule", "body": "JSON keys, numbers and booleans are Ink at 600; strings are Ink 2; null and punctuation are Ink 3. The JWT's header, payload and signature are 700 Ink, 400 Ink 2, 400 Ink 3. No syntax hue anywhere.", "section": "colors" },
+      { "name": "The Two-Size Rule", "body": "Inside one pane there are two type sizes (13 and 11.5, or mono 12 and 11.5). Anything that needs to stand out does so by weight or by uppercase, not by a third size.", "section": "typography" },
+      { "name": "The Protocol Speaks Mono Rule", "body": "Method names, ids, latencies, JSON, filter syntax, counts in readouts and key legends are set in Atkinson Hyperlegible Mono. The interface's own words stay in the sans.", "section": "typography" },
+      { "name": "The Flat Work Rule", "body": "Nothing inside the work area casts a shadow. Only what floats over it (dialog, palette, drawer, jump pill) does.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do spend amber only on the selection, the primary action, the focus ring and a change held until seen (The Amber Budget Rule).",
+      "Do use blue for client to server and green for server to client, and only on direction marks, kind tags, row tints and REQ/RES tags.",
+      "Do set everything the protocol says (methods, ids, latencies, JSON, filter syntax, key legends) in Atkinson Hyperlegible Mono at 12px with tabular figures.",
+      "Do keep two type sizes per pane and rank by weight (400 / 500 / 600 / 700) and uppercase.",
+      "Do rank JSON and JWT parts by weight and ink level (Ink 600, Ink 2, Ink 3), never by hue.",
+      "Do separate with 1px hairlines (Line for dividers, Line Strong for controls) and raise with tone (Graphite 0 → 1 → 2 → 3).",
+      "Do show counts as one mono readout line: quiet label, heavy value.",
+      "Do hold an unacknowledged frame in Amber Soft with no timer; it cools only when seen.",
+      "Do draw every icon from the one inline-SVG set (16-unit grid, stroke 1.75, currentColor).",
+      "Do use --accent-text for amber as text so the light theme gets its darker amber."
+    ],
+    "donts": [
+      "Don't add kickers or eyebrows above a title; a Label-style h4 names the block beneath it and nothing else.",
+      "Don't build hero-metric tiles; counts belong on the readout line.",
+      "Don't put a border on side tabs or frame an unseen frame; a background tint holds it.",
+      "Don't use Unicode glyphs (arrows, bullets, check marks) as icons.",
+      "Don't cast a shadow inside the work area; only dialogs, the palette, the drawer and the jump pill float.",
+      "Don't colour a button, heading, link or JSON token with blue or green.",
+      "Don't introduce a third type size inside a pane or a system display face.",
+      "Don't let any text fall below 4.5:1 in either theme; Ink 3 is the floor."
+    ]
+  }
+}
