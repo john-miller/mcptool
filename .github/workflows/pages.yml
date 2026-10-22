@@ -20,7 +20,10 @@ jobs:
         with:
           node-version: 22
           cache: npm
+      # The lite build never runs Electron; skip its binary download (and the installer tooling).
       - run: npm ci
+        env:
+          ELECTRON_SKIP_BINARY_DOWNLOAD: '1'
       - run: npm run build:lite
       - uses: actions/upload-pages-artifact@v3
         with:
