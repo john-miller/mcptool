@@ -4,6 +4,7 @@
   "private": true,
   "description": "A Postman-style workbench for exploring and calling MCP servers",
   "type": "module",
+  "license": "MIT",
   "repository": "github:john-miller/mcptool",
   "homepage": "https://john-miller.github.io/mcptool/",
   "main": "out/electron/main.js",

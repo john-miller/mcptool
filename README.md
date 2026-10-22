@@ -110,6 +110,11 @@ The API can start arbitrary local processes and holds OAuth tokens, so it binds 
 rejects requests whose `Host` or `Origin` is not local (this blocks DNS-rebinding and cross-site
 attacks). Don't expose it on a network.
 
+## License
+
+MIT. The bundled fonts (Atkinson Hyperlegible Next and Mono, Braille Institute) are under the SIL Open
+Font License.
+
 ## Layout
 
 ```
