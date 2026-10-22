@@ -6,7 +6,9 @@ prompts, and answer the server's own questions (sampling, elicitation) the way a
 would.
 
 **Try the lite version in your browser:** https://john-miller.github.io/mcptool/ (HTTP servers with CORS only;
-the full version below does everything).
+the full version below does everything). **Desktop installers** for Windows, macOS and Linux are on the
+[releases page](https://github.com/john-miller/mcptool/releases); they are unsigned for now, so expect a
+SmartScreen / Gatekeeper warning on first run.
 
 ## Three ways to run it
 
